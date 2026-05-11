@@ -5,6 +5,22 @@ library(dplyr)
 library(DT)
 library(bslib)
 library(rlang)
+library(googledrive)
+
+
+drive_deauth()
+
+if(!file.exists("data/data.RDS")) {
+  print("Data file not found. Downloading...")
+  drive_download(
+    as_id("1GM2P_IvtEFgelEDUbcY2PJ7ykX-_gUkP"),
+    path = "data/data.RDS",
+    overwrite = TRUE
+  )
+  print("Data file downloaded.")
+} else {
+  print("Data file found.")
+}
 
 #setwd('/Volumes/T7 Shield/FRES/DB_Comunale/micro_dashboard')
 
@@ -18,17 +34,20 @@ library(rlang)
 #metadata_df <- read.csv("/Volumes/T7 Shield/FRES/DB_Comunale/micro_dashboard/metadata.csv")
 
 
-base_path <- '/Volumes/T7 Shield/FRES/DB_Comunale/micro_dashboard_tmp'
+# base_path <- '/Volumes/T7 Shield/FRES/DB_Comunale/micro_dashboard_tmp'
 
-setwd(base_path)
+# setwd(base_path)
 
 # Map the "static" web path to the local "figure" directory for HTML elements
-addResourcePath("static", normalizePath(file.path(base_path, "figure")))
+# addResourcePath("static", normalizePath(file.path(base_path, "figure")))
+addResourcePath("static", "figure")
 
 # source(file.path(base_path, 'LOAD_DATA.r'))
-source(file.path(base_path, 'LOAD_DATA_TEST.r'))
+# source(file.path(base_path, 'LOAD_DATA_TEST.r'))
+source('LOAD_DATA_TEST.r')
+
 # source(file.path(base_path, 'aggregate_by_nuts.r'))
-source("https://raw.githubusercontent.com/ale-ch/micro_dashboard_tmp/refs/heads/main/aggregate_by_nuts.r")
+source("aggregate_by_nuts.r")
 
 # metadata_df <- read.csv(file.path(base_path, 'metadata.csv'))
 metadata_df <- read.csv("https://raw.githubusercontent.com/ale-ch/micro_dashboard_tmp/refs/heads/main/metadata.csv")

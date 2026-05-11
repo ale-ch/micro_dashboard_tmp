@@ -10,7 +10,8 @@ library(lubridate)
 # base_path <- '/Volumes/T7 Shield/FRES/DB_Comunale/micro_dashboard'
 
 # NUTS processing
-nuts_munic_codes_file <- file.path(base_path, "/NUTS_Municipal_codes.xlsx")
+# nuts_munic_codes_file <- file.path(base_path, "/NUTS_Municipal_codes.xlsx")
+nuts_munic_codes_file <- "NUTS_Municipal_codes.xlsx"
 
 #nuts_shp_files <- c(
 #  file.path(base_path, '../macro_dashboard/data/Geometrie/Shapefile_NUTS0.shp'),
@@ -19,11 +20,18 @@ nuts_munic_codes_file <- file.path(base_path, "/NUTS_Municipal_codes.xlsx")
 #  file.path(base_path, '../macro_dashboard/data/Geometrie/Shapefile_NUTS3.shp')
 #)
 
+#nuts_shp_files <- c(
+#  file.path(base_path, 'data/Geometrie/Shapefile_NUTS0.shp'),
+#  file.path(base_path, 'data/Geometrie/Shapefile_NUTS1.shp'),
+#  file.path(base_path, 'data/Geometrie/Shapefile_NUTS2.shp'),
+#  file.path(base_path, 'data/Geometrie/Shapefile_NUTS3.shp')
+#)
+
 nuts_shp_files <- c(
-  file.path(base_path, 'data/Geometrie/Shapefile_NUTS0.shp'),
-  file.path(base_path, 'data/Geometrie/Shapefile_NUTS1.shp'),
-  file.path(base_path, 'data/Geometrie/Shapefile_NUTS2.shp'),
-  file.path(base_path, 'data/Geometrie/Shapefile_NUTS3.shp')
+  'data/Geometrie/Shapefile_NUTS0.shp',
+  'data/Geometrie/Shapefile_NUTS1.shp',
+  'data/Geometrie/Shapefile_NUTS2.shp',
+  'data/Geometrie/Shapefile_NUTS3.shp'
 )
 
 
@@ -42,6 +50,7 @@ shapes_df_list <- lapply(shapes_df_list, function(df) {
 # municipal_data_merged <- readRDS(file.path(base_path, "RData/Merged/municipal_data_merged.RDS"))
 # municipal_data_merged <- readRDS(file.path(base_path, "data/municipal_data_merged.RDS"))
 # municipal_data_merged <- readRDS("/Volumes/T7 Shield/FRES/DB_Comunale/RData/Merged/municipal_data_merged_NEW.RDS")
+
 municipal_data_merged <- readRDS("data/data.RDS")
 
 test <- TRUE 
