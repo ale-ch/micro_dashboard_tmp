@@ -1,0 +1,218 @@
+colnames,Domain,Description,Unit of Measurement
+Number of workers,Economy,Total count of workers,Count
+Altitude of the center in meters,Geography,Elevation of the municipal center,Meters
+Coastal municipality,Geography,Indicates if the municipality is on the coast,Binary
+Coastal zones,Geography,Indicates presence of coastal zones,Binary
+Degree of urbanization,Geography,Classification of the urbanization level,Index/Categorical
+Number of taxpayers,Economy,Total count of registered taxpayers,Count
+Income from buildings frequency,Economy,Number of declarations reporting income from buildings,Count
+Income from buildings total amount,Economy,Total declared income from buildings,Currency (Euro)
+Income from employment and similar frequency,Economy,Number of declarations reporting employment income,Count
+Income from employment and similar total amount,Economy,Total declared employment income,Currency (Euro)
+Income from pension frequency,Economy,Number of declarations reporting pension income,Count
+Income from pension total amount,Economy,Total declared pension income,Currency (Euro)
+Income from self employment including null values frequency,Economy,Number of declarations for self-employment income,Count
+Income from self employment including null values total amount,Economy,Total declared self-employment income,Currency (Euro)
+Income of entrepreneur in ordinary accounting including null values frequency,Economy,Number of declarations for entrepreneur income (ordinary),Count
+Income of entrepreneur in ordinary accounting including null values total amount,Economy,Total declared entrepreneur income (ordinary),Currency (Euro)
+Income of entrepreneur in simplified accounting including null values frequency,Economy,Number of declarations for entrepreneur income (simplified),Count
+Income of entrepreneur in simplified accounting including null values total amount,Economy,Total declared entrepreneur income (simplified),Currency (Euro)
+Income from participation including null values frequency,Economy,Number of declarations for participation income,Count
+Income from participation including null values total amount,Economy,Total declared participation income,Currency (Euro)
+Taxable income frequency,Economy,Number of declarations with taxable income,Count
+Taxable income total amount,Economy,Total taxable income,Currency (Euro)
+Net tax frequency,Economy,Number of declarations with net tax due,Count
+Net tax total amount,Economy,Total net tax amount,Currency (Euro)
+Additional taxable income frequency,Economy,Number of declarations with additional taxable income,Count
+Additional taxable income total amount,Economy,Total additional taxable income,Currency (Euro)
+Regional surcharge due frequency,Economy,Number of declarations with regional surcharge,Count
+Regional surcharge due total amount,Economy,Total regional surcharge amount,Currency (Euro)
+Municipal surcharge due frequency,Economy,Number of declarations with municipal surcharge,Count
+Municipal surcharge due total amount,Economy,Total municipal surcharge amount,Currency (Euro)
+Total income less than zero euro frequency,Economy,Count of total incomes below zero,Count
+Total income less than zero euro total amount,Economy,Sum of total incomes below zero,Currency (Euro)
+Total income between 0 and 10000 euro frequency,Economy,Count of incomes in 0-10000 bracket,Count
+Total income between 0 and 10000 euro total amount,Economy,Sum of incomes in 0-10000 bracket,Currency (Euro)
+Total income between 10000 and 15000 euro frequency,Economy,Count of incomes in 10000-15000 bracket,Count
+Total income between 10000 and 15000 euro total amount,Economy,Sum of incomes in 10000-15000 bracket,Currency (Euro)
+Total income between 15000 and 26000 euro frequency,Economy,Count of incomes in 15000-26000 bracket,Count
+Total income between 15000 and 26000 euro total amount,Economy,Sum of incomes in 15000-26000 bracket,Currency (Euro)
+Total income between 26000 and 55000 euro frequency,Economy,Count of incomes in 26000-55000 bracket,Count
+Total income between 26000 and 55000 euro total amount,Economy,Sum of incomes in 26000-55000 bracket,Currency (Euro)
+Total income between 55000 and 75000 euro frequency,Economy,Count of incomes in 55000-75000 bracket,Count
+Total income between 55000 and 75000 euro total amount,Economy,Sum of incomes in 55000-75000 bracket,Currency (Euro)
+Total income between 75000 and 120000 euro frequency,Economy,Count of incomes in 75000-120000 bracket,Count
+Total income between 75000 and 120000 euro total amount,Economy,Sum of incomes in 75000-120000 bracket,Currency (Euro)
+Total income over 120000 euro frequency,Economy,Count of incomes over 120000 bracket,Count
+Total income over 120000 euro total amount,Economy,Sum of incomes over 120000 bracket,Currency (Euro)
+Income per capita,Economy,Average income per person,Currency (Euro)
+Share of poverty,Economy,Proportion of population living in poverty,Percentage
+Share of rich,Economy,Proportion of population in high wealth bracket,Percentage
+Gini coefficient with median,Economy,Measure of income inequality,Ratio
+Number of firms,Economy,Total count of registered businesses,Count
+Municipality name,Administration,Official name of the municipality,Text
+Starting population male Italian,Demographics,Initial count of male Italian citizens,Count
+Births male Italian,Demographics,Count of male Italian births,Count
+Deaths male Italian,Demographics,Count of male Italian deaths,Count
+Internal registrations male Italian,Demographics,Count of male Italian internal migrations in,Count
+Internal cancellations male Italian,Demographics,Count of male Italian internal migrations out,Count
+Foreign registrations male Italian,Demographics,Count of male Italian registrations from abroad,Count
+Foreign cancellations male Italian,Demographics,Count of male Italian cancellations to abroad,Count
+Ending population male Italian,Demographics,Final count of male Italian citizens,Count
+Starting population female Italian,Demographics,Initial count of female Italian citizens,Count
+Births female Italian,Demographics,Count of female Italian births,Count
+Deaths female Italian,Demographics,Count of female Italian deaths,Count
+Internal registrations female Italian,Demographics,Count of female Italian internal migrations in,Count
+Internal cancellations female Italian,Demographics,Count of female Italian internal migrations out,Count
+Foreign registrations female Italian,Demographics,Count of female Italian registrations from abroad,Count
+Foreign cancellations female Italian,Demographics,Count of female Italian cancellations to abroad,Count
+Ending population female Italian,Demographics,Final count of female Italian citizens,Count
+Starting population total Italian,Demographics,Initial count of all Italian citizens,Count
+Births total Italian,Demographics,Total Italian births,Count
+Deaths total Italian,Demographics,Total Italian deaths,Count
+Internal registrations total Italian,Demographics,Total Italian internal migrations in,Count
+Internal cancellations total Italian,Demographics,Total Italian internal migrations out,Count
+Foreign registrations total Italian,Demographics,Total Italian registrations from abroad,Count
+Foreign cancellations total Italian,Demographics,Total Italian cancellations to abroad,Count
+Starting population male foreign,Demographics,Initial count of male foreign residents,Count
+Births male foreign,Demographics,Count of male foreign births,Count
+Deaths male foreign,Demographics,Count of male foreign deaths,Count
+Internal registrations male foreign,Demographics,Count of male foreign internal migrations in,Count
+Internal cancellations male foreign,Demographics,Count of male foreign internal migrations out,Count
+Foreign registrations male foreign,Demographics,Count of male foreign registrations from abroad,Count
+Foreign cancellations male foreign,Demographics,Count of male foreign cancellations to abroad,Count
+Ending population male foreign,Demographics,Final count of male foreign residents,Count
+Starting population female foreign,Demographics,Initial count of female foreign residents,Count
+Births female foreign,Demographics,Count of female foreign births,Count
+Deaths female foreign,Demographics,Count of female foreign deaths,Count
+Internal registrations female foreign,Demographics,Count of female foreign internal migrations in,Count
+Internal cancellations female foreign,Demographics,Count of female foreign internal migrations out,Count
+Foreign registrations female foreign,Demographics,Count of female foreign registrations from abroad,Count
+Foreign cancellations female foreign,Demographics,Count of female foreign cancellations to abroad,Count
+Ending population female foreign,Demographics,Final count of female foreign residents,Count
+Starting population total foreign,Demographics,Initial count of all foreign residents,Count
+Births total foreign,Demographics,Total foreign births,Count
+Deaths total foreign,Demographics,Total foreign deaths,Count
+Internal registrations total foreign,Demographics,Total foreign internal migrations in,Count
+Internal cancellations total foreign,Demographics,Total foreign internal migrations out,Count
+Foreign registrations total foreign,Demographics,Total foreign registrations from abroad,Count
+Foreign cancellations total foreign,Demographics,Total foreign cancellations to abroad,Count
+Area in square kilometers,Geography,Total land area,Square Kilometers
+Number of segments,Infrastructure,Count of road or infrastructure segments,Count
+Road kilometers total,Infrastructure,Total length of road network,Kilometers
+Share of primary roads,Infrastructure,Proportion of primary roads,Percentage
+Share of secondary roads,Infrastructure,Proportion of secondary roads,Percentage
+Share of residential roads,Infrastructure,Proportion of residential roads,Percentage
+Share of paved roads,Infrastructure,Proportion of paved roads,Percentage
+Share of unpaved roads,Infrastructure,Proportion of unpaved roads,Percentage
+Average maximum speed,Infrastructure,Average of maximum speed limits,Km/h
+Road density kilometers per square kilometer,Infrastructure,Ratio of road length to area,Ratio (km/km2)
+Intersection count,Infrastructure,Total count of road intersections,Count
+Intersection density,Infrastructure,Ratio of intersections to area,Ratio
+regioni_regions,Geography,Name of the region,Text
+cod_reg,Geography,Code of the region,Categorical/Code
+province_provinces,Geography,Name of the province,Text
+cod_prov,Geography,Code of the province,Categorical/Code
+comuni_municipalities,Geography,Name of the municipality,Text
+codice_comune_municipality_code,Geography,Code of the municipality,Categorical/Code
+Number of 5 star deluxe hotels,Tourism,Total count of 5-star deluxe hotels,Count
+Number of 4 star hotels,Tourism,Total count of 4-star hotels,Count
+Number of 3 star hotels,Tourism,Total count of 3-star hotels,Count
+Number of 2 star hotels,Tourism,Total count of 2-star hotels,Count
+Number of 1 star hotels,Tourism,Total count of 1-star hotels,Count
+Number of hotel tourism residences,Tourism,Total count of hotel tourism residences,Count
+Number of total hotels and similar establishments,Tourism,Total count of all hotel establishments,Count
+Number of tourist campsites and villages,Tourism,Total count of campsites and tourist villages,Count
+Number of holiday dwellings managed entrepreneurially,Tourism,Total count of entrepreneurial holiday dwellings,Count
+Number of farmhouses,Tourism,Total count of farmhouses (agriturismo),Count
+Number of youth hostels,Tourism,Total count of youth hostels,Count
+Number of tourist dormitories,Tourism,Total count of tourist dormitories,Count
+Number of mountain huts,Tourism,Total count of mountain huts/refuges,Count
+Number of other accommodation establishments,Tourism,Total count of other miscellaneous accommodations,Count
+Number of bed and breakfast establishments,Tourism,Total count of B&Bs,Count
+Number of total extra hotel establishments,Tourism,Total count of extra-hotel establishments,Count
+Number of total accommodation establishments,Tourism,Total count of all accommodation establishments,Count
+Number of total accommodation beds,Tourism,Total count of available beds in all accommodations,Count
+Female mayor,Politics,Indicates if the mayor is female,Binary
+Graduated mayor,Politics,Indicates if the mayor holds a degree,Binary
+Majority councilors with degree,Politics,Proportion of majority councilors holding a degree,Percentage
+Majority assessors with degree,Politics,Proportion of majority assessors holding a degree,Percentage
+Mayor age,Politics,Age of the current mayor,Years
+Average age of councilors,Politics,Average age of municipal councilors,Years
+Average age of assessors,Politics,Average age of municipal assessors,Years
+Mayor under 30,Politics,Indicates if the mayor is under 30 years old,Binary
+Mayor under 40,Politics,Indicates if the mayor is under 40 years old,Binary
+Mayor over 50,Politics,Indicates if the mayor is over 50 years old,Binary
+Civic list,Politics,Indicates if administration is from a civic list,Binary
+Municipality above 15000 inhabitants,Demographics,"Indicates if population exceeds 15,000",Binary
+Total funding sum,Public Funding,Sum of all allocated funding,Currency (Euro)
+Programmer dummy frequency,Public Funding,Frequency of programmer dummy variable occurrences,Count
+Transport and mobility frequency,Public Funding,Number of funding initiatives for transport,Count
+Environment frequency,Public Funding,Number of funding initiatives for environment,Count
+Social inclusion and health frequency,Public Funding,Number of funding initiatives for social inclusion,Count
+Education and training frequency,Public Funding,Number of funding initiatives for education,Count
+Business competitiveness frequency,Public Funding,Number of funding initiatives for business,Count
+Culture and tourism frequency,Public Funding,Number of funding initiatives for culture and tourism,Count
+Digital services frequency,Public Funding,Number of funding initiatives for digital services,Count
+Administrative capacity frequency,Public Funding,Number of funding initiatives for administrative capacity,Count
+Energy frequency,Public Funding,Number of funding initiatives for energy sector,Count
+Research and innovation frequency,Public Funding,Number of funding initiatives for research,Count
+Employment and labor frequency,Public Funding,Number of funding initiatives for employment,Count
+Transport and mobility sum,Public Funding,Total funding amount for transport,Currency (Euro)
+Environment sum,Public Funding,Total funding amount for environment,Currency (Euro)
+Social inclusion and health sum,Public Funding,Total funding amount for social inclusion,Currency (Euro)
+Education and training sum,Public Funding,Total funding amount for education,Currency (Euro)
+Business competitiveness sum,Public Funding,Total funding amount for business,Currency (Euro)
+Culture and tourism sum,Public Funding,Total funding amount for culture and tourism,Currency (Euro)
+Digital services sum,Public Funding,Total funding amount for digital services,Currency (Euro)
+Administrative capacity sum,Public Funding,Total funding amount for administrative capacity,Currency (Euro)
+Energy sum,Public Funding,Total funding amount for energy sector,Currency (Euro)
+Research and innovation sum,Public Funding,Total funding amount for research,Currency (Euro)
+Employment and labor sum,Public Funding,Total funding amount for employment,Currency (Euro)
+Region code,Administration,Identifier code for the region,Code
+Pillar 1 Bureaucracy,Administration,Assessment score for bureaucracy,Index
+Pillar 2 Politics,Administration,Assessment score for political framework,Index
+Pillar 3 Economy,Economy,Assessment score for economic strength,Index
+Municipal Administrative Quality Index,Administration,Overall quality score of municipal administration,Index
+NUTS3,Geography,NUTS 3 level code (Province equivalent),Categorical/Code
+NUTS2,Geography,NUTS 2 level code (Region equivalent),Categorical/Code
+NUTS1,Geography,NUTS 1 level code (Macro-region equivalent),Categorical/Code
+NUTS0,Geography,NUTS 0 level code (Country equivalent),Categorical/Code
+NUTS0_Name,Geography,NUTS 0 level name,Text
+NUTS1_Name,Geography,NUTS 1 level name,Text
+NUTS2_Name,Geography,NUTS 2 level name,Text
+NUTS3_Name,Geography,NUTS 3 level name,Text
+PNRR Funding,Public Funding,Funds allocated from the National Recovery and Resilience Plan,Currency (Euro)
+Regional Funding,Public Funding,Funds allocated by the region,Currency (Euro)
+Provincial Funding,Public Funding,Funds allocated by the province,Currency (Euro)
+Municipal Funding,Public Funding,Funds allocated by the municipality,Currency (Euro)
+Other Public Funding,Public Funding,Other public funds allocated,Currency (Euro)
+Private Funding,Public Funding,Funds sourced privately,Currency (Euro)
+Funding to be Sourced,Public Funding,Amount of funding yet to be secured,Currency (Euro)
+PNC Funding,Public Funding,Funds allocated from the National Complementary Plan,Currency (Euro)
+Total Funding,Public Funding,Total sum of all funding sources,Currency (Euro)
+EU Non-PNRR Funding,Public Funding,European Union funds excluding PNRR,Currency (Euro)
+Other Funds,Public Funding,Miscellaneous funds,Currency (Euro)
+Price: Other,Economy,Price index or value for other commodities,Currency
+Price: Petrol,Economy,Current price of petrol,Currency
+Price: Diesel,Economy,Current price of diesel,Currency
+Price: LPG,Economy,Current price of LPG,Currency
+Price: Methane,Economy,Current price of methane,Currency
+COVID National Measures,Historical Event,Duration of national COVID measures,Days
+COVID State of Emergency,Historical Event,Duration of COVID state of emergency,Days
+COVID Regional Measures,Historical Event,Duration of regional COVID measures,Days
+COVID Provincial Measures,Historical Event,Duration of provincial COVID measures,Days
+Ukraine War,Historical Event,Duration of the war in Ukraine impact,Days
+UKR War Invasion Phase,Historical Event,Duration of the Ukraine war invasion phase,Days
+Energy Crisis Phase,Historical Event,Duration of the energy crisis phase,Days
+Average Price Display Obligation,Historical Event,Duration of average price display obligation policy,Days
+Obligation Amendment,Historical Event,Duration of obligation amendment policy,Days
+Total production value thousand USD (Orbis),Economy,Total value of production for firms in the area,Currency (Thousand USD)
+Number of employees (Orbis),Economy,Total number of employees in observed firms,Count
+Gross revenue thousand USD (Orbis),Economy,Total gross revenue of observed firms,Currency (Thousand USD)
+Net revenue thousand USD (Orbis),Economy,Total net revenue of observed firms,Currency (Thousand USD)
+Number of active firms (Orbis),Economy,Total count of active firms in the database,Count
+Number of quoted firms (Orbis),Economy,Total count of publicly quoted firms,Count
+Number of branch firms (Orbis),Economy,Total count of firm branches,Count
+Number of firms with own data (Orbis),Economy,Total count of firms reporting their own data,Count
+Number of unique companies (Orbis),Economy,Total count of unique company entities,Count
