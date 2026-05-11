@@ -5,22 +5,6 @@ library(dplyr)
 library(DT)
 library(bslib)
 library(rlang)
-library(googledrive)
-
-
-drive_deauth()
-
-if(!file.exists("data/data.RDS")) {
-  print("Data file not found. Downloading...")
-  drive_download(
-    as_id("1GM2P_IvtEFgelEDUbcY2PJ7ykX-_gUkP"),
-    path = "data/data.RDS",
-    overwrite = TRUE
-  )
-  print("Data file downloaded.")
-} else {
-  print("Data file found.")
-}
 
 #setwd('/Volumes/T7 Shield/FRES/DB_Comunale/micro_dashboard')
 
@@ -44,7 +28,7 @@ addResourcePath("static", "figure")
 
 # source(file.path(base_path, 'LOAD_DATA.r'))
 # source(file.path(base_path, 'LOAD_DATA_TEST.r'))
-source('LOAD_DATA_TEST.r')
+source('load_data.r')
 
 # source(file.path(base_path, 'aggregate_by_nuts.r'))
 source("aggregate_by_nuts.r")

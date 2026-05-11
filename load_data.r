@@ -5,6 +5,7 @@ library(sf)
 library(purrr)
 library(tidyr)
 library(lubridate)
+library(googledrive)
 
 # base_path  <- "/Volumes/T7 Shield/FRES/DB_Comunale"
 # base_path <- '/Volumes/T7 Shield/FRES/DB_Comunale/micro_dashboard'
@@ -50,6 +51,23 @@ shapes_df_list <- lapply(shapes_df_list, function(df) {
 # municipal_data_merged <- readRDS(file.path(base_path, "RData/Merged/municipal_data_merged.RDS"))
 # municipal_data_merged <- readRDS(file.path(base_path, "data/municipal_data_merged.RDS"))
 # municipal_data_merged <- readRDS("/Volumes/T7 Shield/FRES/DB_Comunale/RData/Merged/municipal_data_merged_NEW.RDS")
+
+
+
+
+drive_deauth()
+
+if(!file.exists("data/data.RDS")) {
+  print("Data file not found. Downloading...")
+  drive_download(
+    as_id("1GM2P_IvtEFgelEDUbcY2PJ7ykX-_gUkP"),
+    path = "data/data.RDS",
+    overwrite = TRUE
+  )
+  print("Data file downloaded.")
+} else {
+  print("Data file found.")
+}
 
 municipal_data_merged <- readRDS("data/data.RDS")
 
