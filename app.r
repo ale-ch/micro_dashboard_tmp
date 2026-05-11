@@ -18,7 +18,7 @@ library(rlang)
 #metadata_df <- read.csv("/Volumes/T7 Shield/FRES/DB_Comunale/micro_dashboard/metadata.csv")
 
 
-base_path <- '/Volumes/T7 Shield/FRES/DB_Comunale/micro_dashboard'
+base_path <- '/Volumes/T7 Shield/FRES/DB_Comunale/micro_dashboard_tmp'
 
 setwd(base_path)
 
@@ -28,9 +28,10 @@ addResourcePath("static", normalizePath(file.path(base_path, "figure")))
 # source(file.path(base_path, 'LOAD_DATA.r'))
 source(file.path(base_path, 'LOAD_DATA_TEST.r'))
 # source(file.path(base_path, 'aggregate_by_nuts.r'))
-source("https://raw.githubusercontent.com/ale-ch/micro_dashboard/refs/heads/main/aggregate_by_nuts.r")
+source("https://raw.githubusercontent.com/ale-ch/micro_dashboard_tmp/refs/heads/main/aggregate_by_nuts.r")
 
-metadata_df <- read.csv(file.path(base_path, 'metadata.csv'))
+# metadata_df <- read.csv(file.path(base_path, 'metadata.csv'))
+metadata_df <- read.csv("https://raw.githubusercontent.com/ale-ch/micro_dashboard_tmp/refs/heads/main/metadata.csv")
 
 LEVELS <- c("Municipal", "NUTS3", "NUTS2", "NUTS1", "NUTS0")
 AGGREGATION_CHOICES <- c("Mean", "Median", "Sum")
